@@ -51,8 +51,8 @@ a{
 	}
 .inner-footer{
 	margin: 0px;
-padding: 0px;
-background-color: #272727;
+    padding: 0px;
+    background-color: #272727;
 }
 
 .social-links{
@@ -61,9 +61,10 @@ background-color: #272727;
 }
 
 .social-links ul{
-	padding: 10px;
+	padding: 40px;
 	display: flex;
-	width: 300px;height: 30px;
+	width: 300px;
+	height: 30px;
 	margin: auto;
 }
 
@@ -73,9 +74,12 @@ background-color: #272727;
 }
 
 .social-items a{
-	padding: 10ox 20px;
-	font-size: 30px;
+	padding: 10px 20px;
+	font-size: 35px;
 	color: #6cccc6;
+	width: 300px;
+	height: 30px;
+	margin: auto;
 	
 }
 
@@ -97,8 +101,12 @@ background-color: #272727;
 .quick-items a{
 	text-decoration: none;
 	padding: 0px 15px;
-	font-size: 18px;
+	font-size: 20px;
 	color: white;
+}
+
+.quick-items a:hover{
+	color: #6cccc6;
 }
 
 .outer-footer{
